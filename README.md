@@ -1,2 +1,1 @@
-# congenial-waffle
-webpack demo
+# webpack demo
