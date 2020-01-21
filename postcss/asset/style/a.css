@@ -1,0 +1,5 @@
+body {
+  /* background-color: red; */
+  transform: all 300ms;
+  background-image: url("../img/default.png");
+}
