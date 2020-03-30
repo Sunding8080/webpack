@@ -90,23 +90,10 @@
 /*!*****************!*\
   !*** ./main.js ***!
   \*****************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _name__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./name */ \"./name.js\");\nlet array = [1, 2, 3, 4, 5, 6];\narray.includes(2);\n\nclass Robot {\n  constructor(msg) {\n    this.message = msg;\n  }\n\n  say() {\n    alertMe(this.message);\n  }\n\n}\n\nObject.assign({}, {\n  a: 1,\n  b: 2\n});\n\nconst fn = () => 1;\n\nnew Promise(function (resolve, reject) {\n  resolve(1);\n});\n\n\n//# sourceURL=webpack:///./main.js?");
-
-/***/ }),
-
-/***/ "./name.js":
-/*!*****************!*\
-  !*** ./name.js ***!
-  \*****************/
-/*! exports provided: name */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"name\", function() { return name; });\nconst name = 'sunding';\n\n\n//# sourceURL=webpack:///./name.js?");
+eval("const name = 'sunding'\nconsole.log(name)\n\n\n//# sourceURL=webpack:///./main.js?");
 
 /***/ })
 
