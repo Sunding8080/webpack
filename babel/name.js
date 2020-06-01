@@ -1,5 +1,5 @@
-const name = 'sunding'
+export const name = 'sunding'
 
-export {
+export default {
   name
 }

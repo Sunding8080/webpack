@@ -21,4 +21,16 @@ new Promise(function(resolve, reject) {
   resolve(1)
 });
 
+fn();
+
+import(
+  /* webpackPrefetch: true */
+  /* webpackChunkName: "name" */
+  "./name").then(({
+  default: _
+}) => {
+  console.log(_)
+});
+
 import { name } from './name';
+console.log(name);
